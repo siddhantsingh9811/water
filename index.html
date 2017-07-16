@@ -2,14 +2,40 @@
 <html>
 <head>
 	<title>test</title>
-	<link rel="stylesheet" type="text/css" href="index.css">
+	<link rel="stylesheet" type="text/css" href="water.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </head>
 <body>
-<div class="loader">
-<div class="a">
-	<h1>water</h1>
-	<center><h2>Made By Siddhant Singh</h2></center>
-</div>
-</div>
+	<div class="loader">
+		<div class="a">
+			<h1>water</h1>
+			<center><h2>Made By Siddhant Singh</h2></center>
+		</div>
+	</div>
+	<div class="b">    Click Me !</div>
+	<div class="top" onclick="a()" onmouseover="b()" onmouseout="c()"></div>
+	<div class="c">
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+	</div>
+	<script type="text/javascript">
+		function a(){
+			$("html , body").animate({
+				scrollTop: $(".c").offset().top-100
+			},2000)
+		}
+		function b(){
+			$(".b").css("color" , "#626567 ")
+		}
+		function c(){
+			$(".b").css("color" , "transparent")
+			
+		}
+
+	</script>
 </body>
 </html>

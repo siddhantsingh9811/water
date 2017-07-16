@@ -4,6 +4,7 @@ body
 	padding: 0;
 	background: #262626;
 	font-family: arial;
+	font-family: arial;
 
 }
 .loader
@@ -52,4 +53,48 @@ body
 	{
 		background-position: left 4000px top -250px;
 	}
+}
+.top
+{
+
+    width:0px;
+    height:0px;
+    border-left:20px solid transparent;
+    border-right:20px solid transparent;
+    border-top:20px solid #fff;
+    position: absolute;
+    right: 50%;
+    top: 90%;
+    animation: 1s abc infinite;
+}
+
+@keyframes abc
+{
+	0%
+	{
+    top: 90%;	
+	}
+	25%
+	{
+	top: 93%;
+	}
+	100%
+	{
+	top: 90%;
+	}
+}
+.b
+{
+position: absolute;
+right: 50%;
+top: 85%;
+font-size: 25px;
+color: transparent;
+transition: 1s;
+}
+.c
+{
+margin-top: 1000px;
+font-size: 35px;
+margin-bottom: 200px;
 }
