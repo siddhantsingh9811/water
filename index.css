@@ -25,7 +25,7 @@ body
 	background-image:url("http://viktor-cegan.wz.cz/ryba2.png") ;
 	background-repeat: repeat-x;
 	-webkit-background-clip:text;
-	animation :animate 20s linear 1;
+	animation :animate 15s linear 1;
 	opacity: 1;
 
 		background-position: left 0px top -200px;
@@ -54,6 +54,7 @@ body
 		background-position: left 4000px top -250px;
 	}
 }
+<<<<<<< HEAD
 .top
 {
 
@@ -98,3 +99,5 @@ margin-top: 1000px;
 font-size: 35px;
 margin-bottom: 200px;
 }
+=======
+>>>>>>> 19877e331f27f4051a0bbc857f4a655ccef52865
