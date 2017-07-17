@@ -2,7 +2,6 @@ body
 {
 	margin: 0;
 	padding: 0;
-	background: #262626;
 	font-family: arial;
 	font-family: arial;
 
@@ -61,7 +60,7 @@ body
     height:0px;
     border-left:20px solid transparent;
     border-right:20px solid transparent;
-    border-top:20px solid #fff;
+    border-top:20px solid black;
     position: absolute;
     right: 50%;
     top: 90%;
